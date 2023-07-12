@@ -6,7 +6,7 @@ function Contact() {
 
 
   return (
-    <div>
+    <div class="outro">
       
       <div>
         <ul>

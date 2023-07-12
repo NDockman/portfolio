@@ -6,13 +6,13 @@ function Header() {
 
 
   return (
-    <div>
+    <div class="intro">
       <h1>Noah Dockman</h1>
       <nav>
         <ul>
-          <li>
-            <a href="#bio">About Me</a>
-          </li>
+          {/* <li>
+            <a href="#bio">About</a>
+          </li> */}
           <li>
             <a href="#project">Projects</a>
           </li>

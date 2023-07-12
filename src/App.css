@@ -1,21 +1,11 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  /* text-align: center; */
+  background-color: #7089a1;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,11 +18,34 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* CUSTOM CSS STARTS HERE*/
+
+.intro {
+  background-color: orange;
+  opacity: 0.8;
+  margin-left: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+ul {
+  list-style-type: none;
+}
+
+.about {
+  background-color: orange;
+  opacity: 0.8;
+  margin-right: 5%;
+}
+
+.outro {
+  background-color: orange;
+  opacity: 0.8;
+  margin-left: 5%;
 }
