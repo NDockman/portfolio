@@ -44,8 +44,41 @@ ul {
   margin-right: 5%;
 }
 
+
+/* Project Section */
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-project {
+  border: 2px solid black;
+  width: 60%;
+}
+.big-project-sc {
+  border: 2px solid orange;
+  width: 95%;
+}
+
+.reg-project {
+  border: 2px solid black;
+  margin: 1px;
+  width: 40%;
+}
+.project-sc {
+  width: 28%;
+  height: 50%;
+}
+
+/* Contact Info */
+
 .outro {
   background-color: orange;
   opacity: 0.8;
   margin-left: 5%;
+  /* padding-bottom: 1rem; */
 }
