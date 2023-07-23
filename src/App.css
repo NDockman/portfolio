@@ -49,29 +49,40 @@ ul {
 
 .project-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+
+  max-height: 800px;
 }
 
 .big-project {
   border: 2px solid black;
+  margin-left: 19%;
+  margin-right: 19%;
+  margin-bottom: 0.3%;
+
   width: 60%;
+
+  max-width: 600px;
+  max-height: 350px;
 }
 .big-project-sc {
-  border: 2px solid orange;
-  width: 95%;
+  width: 100%;
 }
 
 .reg-project {
   border: 2px solid black;
-  margin: 1px;
+  margin-right: 10%;
+  /* margin: 1px; */
+
   width: 40%;
+
+  max-width: 300px;
+  max-height: 175px;
 }
 .project-sc {
-  width: 28%;
-  height: 50%;
+  width: 100%;
 }
 
 /* Contact Info */
