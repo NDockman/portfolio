@@ -1,6 +1,8 @@
 .App {
   /* text-align: center; */
   background-color: #7089a1;
+
+  font-family: "Gill Sans", sans-serif;
 }
 
 .App-header {
@@ -21,7 +23,7 @@
 /* CUSTOM CSS STARTS HERE*/
 
 .intro {
-  background-color: orange;
+  background: linear-gradient(45deg,#ff640a 40%,#ffc60a);
   opacity: 0.8;
   margin-left: 5%;
   padding-left: 5%;
@@ -41,7 +43,14 @@ ul {
 .about {
   background-color: orange;
   opacity: 0.8;
+
   margin-right: 5%;
+  margin-top: 1%;
+  margin-bottom: 4%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  padding-top: 0.1%;
+  padding-bottom: 0.1%;
 }
 
 
@@ -54,6 +63,16 @@ ul {
   align-items: center;
 
   max-height: 800px;
+}
+
+.project-container-two {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .big-project {
@@ -73,10 +92,8 @@ ul {
 
 .reg-project {
   border: 2px solid black;
-  margin-right: 10%;
-  /* margin: 1px; */
 
-  width: 40%;
+  width: 48.7%;
 
   max-width: 300px;
   max-height: 175px;
@@ -90,6 +107,28 @@ ul {
 .outro {
   background-color: orange;
   opacity: 0.8;
+  
+  margin-top: 4%;
   margin-left: 5%;
-  /* padding-bottom: 1rem; */
+  padding-top: 0.1%;
+  padding-bottom: 0.1%;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 3px;
+
+}
+
+.contact-container li a {
+  color: black;
+}
+
+.logo {
+  max-width: 32px;
+  max-height: 32px;
 }
