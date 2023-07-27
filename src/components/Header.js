@@ -13,11 +13,13 @@ function Header() {
           {/* <li>
             <a href="#bio">About</a>
           </li> */}
-          <li>
+          {/* <li>
             <a href="#project">Projects</a>
-          </li>
+          </li> */}
           <li>
-            <a href="#contact">Contact Info</a>
+            <a href="#outro">
+              <button id="button">Contact Me!</button>
+            </a>
           </li>
         </ul>
       </nav>
