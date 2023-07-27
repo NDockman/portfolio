@@ -2,11 +2,10 @@
   /* text-align: center; */
   background-color: #5c748a;
   /* background-color: #7089a1; */
-
   font-family: "Gill Sans", sans-serif;
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 40vh;
   display: flex;
@@ -19,7 +18,7 @@
 
 .App-link {
   color: #61dafb;
-}
+} */
 
 /* CUSTOM CSS STARTS HERE*/
 
@@ -34,7 +33,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  
 }
 
 ul {
@@ -45,14 +43,13 @@ ul {
   border: 2px solid black;
   background-color: #ff640a;
   color: black;
+  border-radius: 7%;
 
   height: 8vh;
   width: 12vw;
   min-width: 100px;
 
   padding: 12px 10%;
-
-  border-radius: 7%;
 
   /* font-size: 1.4vw; */
   /* font-size: 14px; */
@@ -113,7 +110,6 @@ ul {
   margin-bottom: 0.3%;
 
   width: 60%;
-
   max-width: 600px;
   max-height: 350px;
 }
@@ -125,7 +121,6 @@ ul {
   border: 2px solid black;
 
   width: 48.7%;
-
   max-width: 300px;
   max-height: 175px;
 }
@@ -138,7 +133,6 @@ ul {
 #outro {
   background-color: orange;
   opacity: 0.8;
-
   margin-top: 4%;
   margin-left: 5%;
   padding-top: 0.1%;
@@ -152,8 +146,6 @@ ul {
   align-items: center;
 
   padding-inline-start: 0px;
-
-  /* padding: 3px; */
 }
 
 .contact-container {
@@ -161,8 +153,6 @@ ul {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-
-  /* padding: ; */
 }
 
 .contact-container li a {
