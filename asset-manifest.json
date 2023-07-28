@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a1265e05.css",
+    "main.js": "/portfolio/static/js/main.9dbbf017.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/gradebook-screenshot.png": "/portfolio/static/media/gradebook-screenshot.98b2783452b7d5a624ee.png",
+    "static/media/mfc-screenshot.png": "/portfolio/static/media/mfc-screenshot.0a91343f42cde805d0f2.png",
+    "static/media/shopping-demo-screenshot.png": "/portfolio/static/media/shopping-demo-screenshot.30d1ceeae5e28953921b.png",
+    "static/media/github-logo2.png": "/portfolio/static/media/github-logo2.4bb497e598c121a691f7.png",
+    "index.html": "/portfolio/index.html",
+    "main.a1265e05.css.map": "/portfolio/static/css/main.a1265e05.css.map",
+    "main.9dbbf017.js.map": "/portfolio/static/js/main.9dbbf017.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1265e05.css",
+    "static/js/main.9dbbf017.js"
+  ]
+}
